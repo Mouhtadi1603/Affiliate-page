@@ -1,0 +1,107 @@
+* {
+    padding: 0;
+	margin: 0px;
+	font-family: 'Montserrat', sans-serif;
+    box-sizing: border-box;
+	text-decoration: none;
+	scroll-behavior: smooth;
+}
+
+body{
+	font-family: 'Montserrat', sans-serif;
+}
+
+p{
+	font-size: 14px;
+	font-weight: 500;
+}
+
+
+
+
+.Audible {
+	margin: 20px 0px 12px 0px;
+	padding-top: 12px;
+	padding-bottom: 12px;
+}
+
+.audible{
+	font-size: 1.5em;
+	font-family: 'Montserrat', sans-serif;
+	color: darkblue;
+	text-align: center;
+
+}
+
+.lienAmazon, .lien1 {
+	text-decoration: none;
+	font-weight: bold;
+	color:#FF4500;
+	text-transform: uppercase;
+	word-spacing: 3px;
+}
+
+.mo1{
+	text-indent: 25px;
+	padding: 0 20px;
+	text-align: justify;
+	line-height: 25px;
+	font-size: 14px;
+}
+
+.mot{
+	padding: 0 20px;
+	text-align: justify;
+	line-height: 25px;
+	font-size: 14px;
+}
+
+#inscrire{
+	text-align: center;
+	margin: 20px 0;
+	
+}
+
+#inscrire button{
+	text-transform: uppercase;
+	padding: 8px 20px;
+	border:2px solid transparent;
+	background:#FF4500;
+	font-weight: 500;
+
+}
+
+#inscrire button a{
+	text-decoration: none;
+	color: white;
+	font-size: 14px;
+}
+
+#inscrire button a:hover{
+	border: none;
+}
+
+#inscrire button:hover{
+	background: #302521;
+	border:2px solid #FF4500;
+}
+
+@media screen and (max-width: 420px){
+
+	.audible{
+		font-size: 1.2em;
+	}
+
+	#inscription{
+		margin-bottom:50px;
+	}
+
+	#inscrire button a{
+		font-size: 12px;
+		text-transform: uppercase;
+		padding: 8px 15px;
+		font-weight: 300;
+	
+	}
+	
+}
